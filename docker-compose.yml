@@ -1,0 +1,7 @@
+version: "3"
+services:
+  minecraft:
+    image: fikrirnurhidayat/minecraft:latest
+    container_name: minecraft
+    restart: always
+    network_mode: "host"
